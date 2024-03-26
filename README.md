@@ -16,7 +16,10 @@ Dim 汎用 As New 汎用
 【プロシージャ例(B列の重複データを削除する場合)】
 
 Sub DelDup1()
+
   ("B列をソートする処理)
+  
   Call 汎用.DelDup("B1")  'B1はフィールド名のセル
+  
 End Sub
 
